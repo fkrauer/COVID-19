@@ -1,5 +1,5 @@
 # COVID-19
-These are cumulative, confirmed cases of COVID-19 in China at province-level. Digitized from WHO sitreps with tabula. The data is partially checked, but there may still be errors. The date is the date of the last update (6 pm MEZ/CET). 
+These are cumulative, confirmed cases of COVID-19 in China at province-level. Digitized from WHO sitreps with tabula. The data is partially checked, but there may still be errors. The date is the date of the last update (6 pm MEZ/CET). I will leave the old files up for a week and then remove them.
 
 Please alert me if you find inconsistencies or data entry errors. I will update this dataset periodically. 
 
