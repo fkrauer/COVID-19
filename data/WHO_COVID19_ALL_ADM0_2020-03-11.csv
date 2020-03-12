@@ -1481,7 +1481,7 @@ date,country,adm,n_cum_conf,n_cum_deaths,n_inc_conf,n_inc_deaths,class
 2020-03-08,Denmark,all,31,0,8,0,Local transmission
 2020-03-08,Dominican Republic,all,1,0,0,0,Imported cases only
 2020-03-08,Ecuador,all,14,0,0,0,Local transmission
-2020-03-08,Egypt,all,48,0,45,0,Local transmission††
+2020-03-08,Egypt,all,48,0,45,0,Local transmission
 2020-03-08,Estonia,all,10,0,0,0,Imported cases only
 2020-03-08,Faroe Islands,all,1,0,0,0,Imported cases only
 2020-03-08,Finland,all,19,0,0,0,Local transmission
