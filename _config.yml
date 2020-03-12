@@ -4,5 +4,5 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - index.html
+  - index.Rmd
 theme: jekyll-theme-minimal
