@@ -23,8 +23,14 @@ These are the individual steps:
 The best way to work with the data is to read it with a stats software such as R:
 ```
 update <- "2020-03-11
-data <- read.csv(paste0("WHO_COVID19_ALL_ADM0_", update ,".csv"), header = T, stringsAsFactors = F)
-data$date <- as.Date(data$date, format="%Y-%m-%d")
+
+## Country-level data (excluding China)
+data_all <- read.csv(paste0("WHO_COVID19_ALL_ADM0_", update ,".csv"), header = T, stringsAsFactors = F)
+data_all$date <- as.Date(data_all$date, format="%Y-%m-%d")
+
+## China province level data
+data_CHN <- read.csv(paste0("WHO_COVID19_ALL_ADM0_", update ,".csv"), header = T, stringsAsFactors = F)
+data_CHN$date <- as.Date(data_CHN$date, format="%Y-%m-%d")
 ```
 
 Andree Valle Campos has written a nice R package [covid19viz](https://github.com/avallecam/covid19viz) to visualize the data.
