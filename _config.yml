@@ -5,4 +5,4 @@ relative_links:
   collections: true
 include:
   - index.html
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
