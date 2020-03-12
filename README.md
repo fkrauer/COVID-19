@@ -18,6 +18,7 @@ These are the individual steps:
 6.	Click Preview & Export Data -> click Export (as csv) and save. CHANGE the file name: add “_adm0” at the end of the file name
 7.	Open R, run the script sitrep_check.R. The only thing you have to change actively every time you add a sitrep is the number of the newest sitrep you want to add to the dataset. The rest should work automatically UNLESS WHO changes the reporting style. 
 
+If anyone wants to take over updating the these datasets, please contact me on twitter @FabiKrauer or open an issue. I have to finish my PhD...
 
 ## How to use it
 The best way to work with the data is to read it with a stats software such as R:
