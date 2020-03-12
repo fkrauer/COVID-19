@@ -1,7 +1,7 @@
 # COVID-19
 
 ## What are these data?
-These are cumulative and incident cases and deaths of COVID-19 in China (province level and total) as well as at country-level (excluding China). The data are digitized from WHO sitreps using [tabula](https://tabula.technology/). The data are partially checked, but there may still be errors. The date is the date of the last update. Please alert me if you find inconsistencies or data entry errors. I will update this dataset periodically. 
+These are cumulative and incident cases and deaths of COVID-19 in China (province level and total) and international (country-level)  (excluding China). This dataset does not include the Diamond Princess cases. The data are digitized from WHO sitreps using [tabula](https://tabula.technology/). The data are partially checked, but there may still be errors. The date is the date of the last update. Please alert me if you find inconsistencies or data entry errors. I will update this dataset periodically. 
 
 Please note that WHO changed the table outline on March 2. Deaths or incident cases for the country-level dataset prior to this date are not yet in the dataset, because they had merged multiple numbers in the same column, which cannot be extracted nicely with tabula. I haven't had the time yet to update this. If anyone wants to do this, please contact me. The cumulative confirmed cases are registered completely from the start though. If you want to get the incident numbers for each day, you have to diff the cumulative cases.
 
