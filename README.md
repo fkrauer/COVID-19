@@ -22,7 +22,7 @@ These are the individual steps:
 ## How to use it
 The best way to work with the data is to read it with a stats software such as R:
 ```
-update <- "2020-03-11
+update <- "2020-03-11"
 
 ## Country-level data (excluding China)
 data_all <- read.csv(paste0("WHO_COVID19_ALL_ADM0_", update ,".csv"), header = T, stringsAsFactors = F)
