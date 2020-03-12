@@ -3,6 +3,9 @@
 ## What are these data?
 These are cumulative and incident cases and deaths of COVID-19 in China at province-level. Digitized from WHO sitreps with tabula. The data is partially checked, but there may still be errors. The date is the date of the last update (6 pm MEZ/CET). Please alert me if you find inconsistencies or data entry errors. I will update this dataset periodically. 
 
+Please note that WHO changed the table outline on March 2. Deaths or incident cases for the country-level dataset prior to this date are not yet in the dataset, because they had merged multiple numbers in the same column, which cannot be extracted nicely with tabula. I haven't had the time yet to update this. If anyone wants to do this, please contact me. The cumulative confirmed cases are registered completely from the start though. 
+
+
 ## How did I make the dataset?
 The WHO sitreps are digitized with tabula. I created two different csv files from each sitrep: one for China provinces and one for the country-level data. These csv files are then merged in R with the pre-existing datasets. The script for the merging and checking is in the repository (sitrep_check.R).
 
@@ -18,8 +21,13 @@ These are the individual steps:
 
 ## How to use it
 The best way to work with the data is to read it with a stats software such as R:
+```
+update <- "2020-03-11
+data <- read.csv(paste0("WHO_COVID19_ALL_ADM0_", update ,".csv"), header = T, stringsAsFactors = F)
+data$date <- as.Date(data$date, format="%Y-%m-%d")
+```
 
-Andree Valle Campos has written a nice R package [covid19vi](https://github.com/avallecam/covid19viz) to visualize the data.
+Andree Valle Campos has written a nice R package [covid19viz](https://github.com/avallecam/covid19viz) to visualize the data.
 
 
 ## Varia
