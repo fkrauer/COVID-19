@@ -19,7 +19,7 @@ These are the individual steps:
 ## How to use it
 The best way to work with the data is to read it with a stats software such as R:
 
-
+Andree Valle Campos has written a nice R package [covid19vi](https://github.com/avallecam/covid19viz) to visualize the data.
 
 
 ## Varia
