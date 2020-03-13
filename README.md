@@ -1,5 +1,8 @@
 # COVID-19
 
+## UPDATE: Due to time shortage I have stopped digitizing the datasets. You can download the country-level WHO sitrep data from [ourworldindata.org](https://ourworldindata.org/coronavirus-source-data). They are updated daily. 
+
+
 ## What are these data?
 These are cumulative and incident cases and deaths of COVID-19 in China (province level and total) and international (country-level)  (excluding China). This dataset does not include the Diamond Princess cases. The data are digitized from WHO sitreps using [tabula](https://tabula.technology/). The data are partially checked, but there may still be errors. The date is the date of the last update. Please alert me if you find inconsistencies or data entry errors. I will update this dataset periodically. 
 
